@@ -1,0 +1,11 @@
+{
+  "name": "express-contacts-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/itallosavieira/express-contacts-api",
+  "author": "itallo.vieira.glo <itallo.vieira@globalhitss.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
