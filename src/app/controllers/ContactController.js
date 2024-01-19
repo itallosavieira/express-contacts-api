@@ -3,11 +3,12 @@ const ConactsRepository = require('../repositories/ContactsRepository');
 class ContactController {
   async index(request, response) {
     const contacts = await ConactsRepository.findAll();
+
     response.json(contacts);
   }
 
-  show() {
-
+  show(request, response) {
+    response.json(request.params);
   }
 
   store() {
